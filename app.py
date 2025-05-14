@@ -1,7 +1,8 @@
 from flask import Flask, render_template, send_file
 import markdown
-import pdfkit
 import os
+from weasyprint import HTML
+import io
 
 app = Flask(__name__)
 
@@ -18,12 +19,10 @@ def download_pdf():
         md_content = f.read()
     html_content = markdown.markdown(md_content, extensions=['extra', 'smarty'])
     rendered = render_template('cv.html', content=html_content)
-    pdf_path = 'cv.pdf'
-    pdfkit.from_string(rendered, pdf_path, options={
-        'encoding': 'UTF-8',
-        'enable-local-file-access': None
-    })
-    return send_file(pdf_path, as_attachment=True)
+    pdf_file = io.BytesIO()
+    HTML(string=rendered).write_pdf(pdf_file)
+    pdf_file.seek(0)
+    return send_file(pdf_file, as_attachment=True, download_name='cv.pdf', mimetype='application/pdf')
 
 if __name__ == '__main__':
     app.run(debug=True)
