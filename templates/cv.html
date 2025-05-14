@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saša Petalinkar - CV, NLP Researcher, AI Developer, Serbian Language Processing">
+    <meta name="keywords" content="Saša Petalinkar, CV, NLP, AI, Serbian, Researcher, Developer">
+    <title>Saša Petalinkar - CV</title>
+    <link rel="icon" href="https://github.com/sasa5linkar.png" type="image/png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#research">Research</a>
+        <a href="#skills">Skills</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+        <a href="/download" class="download-btn">Download PDF</a>
+    </nav>
+    <main>
+        <div class="cv-container">
+            {{ content|safe }}
+        </div>
+    </main>
+</body>
+</html>
