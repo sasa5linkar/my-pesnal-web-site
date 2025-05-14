@@ -1,7 +1,5 @@
 [![sasa5linkar (Saša Petalinkar) · GitHub](https://tse4.mm.bing.net/th?id=OIP.JhJyRNk14WFq9V_bS__XDwAAAA\&pid=Api)](https://github.com/sasa5linkar)
 
-Certainly! Based on the information available from your LinkedIn, Hugging Face, GitHub, and ORCID profiles, here's a detailed and structured CV:
-
 ---
 
 **Saša Petalinkar**
@@ -110,8 +108,6 @@ Certainly! Based on the information available from your LinkedIn, Hugging Face, 
 * **ORCID:** [orcid.org/0009-0007-9664-3594](https://orcid.org/0009-0007-9664-3594)
 
 ---
-
-If you would like this CV formatted in a specific style (e.g., Europass, LaTeX, PDF) or need assistance tailoring it for a particular application or audience, feel free to let me know!
 
 [1]: https://rs.linkedin.com/in/sa%C5%A1a-petalinkar-515467240?utm_source=chatgpt.com "Saša Petalinkar - Belgrade, Serbia | Professional Profile | LinkedIn"
 [2]: https://boa.unimib.it/retrieve/503181bb-520b-4f30-b45e-d9213af75f88/20241225_AI_2024_book_of_abstracts.pdf?utm_source=chatgpt.com "[PDF] ARTIFICAL INTELLIGENCE CONFERENCE - Milano-Bicocca"
